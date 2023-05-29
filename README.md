@@ -10,7 +10,7 @@ bash //reformat.sh in=original.fq out1=R1.fq out2=R2.fq
 
 ##### Using Samtools and Bedtools (https://www.metagenomics.wiki/tools/samtools/converting-bam-to-fastq)
 
-######Sorting the BAM file 
+#####Sorting the BAM file 
 samtools sort -n input.bam -o input_sorted.bam   # sort reads by identifier-name (-n)
-######Generating read one and read two fastq files from the sorted BAM
+#####Generating read one and read two fastq files from the sorted BAM
 bedtools bamtofastq -i input_sorted.bam -fq output_r1.fastq -fq2 output_r2.fastq
