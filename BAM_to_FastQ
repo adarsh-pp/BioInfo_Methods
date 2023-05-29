@@ -3,3 +3,4 @@ Using bazam (https://github.com/ssadedin/bazam) and BBMap (https://jgi.doe.gov/d
 Converting bam to an interleaved FASTQ format( a type of FASTQ file that contains both the forward and reverse reads of a paired-end fragment in a single file)
 
 java -jar bazam.jar -bam input.bam > output.fastq
+ddsd
