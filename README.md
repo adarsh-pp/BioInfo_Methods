@@ -2,12 +2,11 @@
 
 # Converting BAM to Fastq
 
-# Using bazam (https://github.com/ssadedin/bazam) and BBMap (https://jgi.doe.gov/data-and-tools/software-tools/bbtools/bb-tools-user-guide/bbmap-guide/)
+### Using bazam (https://github.com/ssadedin/bazam) and BBMap (https://jgi.doe.gov/data-and-tools/software-tools/bbtools/bb-tools-user-guide/bbmap-guide/)
 # Converting bam to an interleaved FASTQ format( a type of FASTQ file that contains both the forward and reverse reads of a paired-end fragment in a single file)
-java -jar /mnt/exome/Softwares/bazam.jar -bam input.bam > output.fastq
+java -jar bazam.jar -bam input.bam > output.fastq
 #Splitting the file into read one and read two (https://www.biostars.org/p/426628/)
-bash /mnt/exome/Softwares/reformat.sh in=original.fq out1=R1.fq out2=R2.fq
-
+bash //reformat.sh in=original.fq out1=R1.fq out2=R2.fq
 
 #Using Samtools and Bedtools (https://www.metagenomics.wiki/tools/samtools/converting-bam-to-fastq)
 
