@@ -1,6 +1,4 @@
-# Bioinformatics_tools
-
-## Converting BAM to FastQ Files
+# Converting BAM to FastQ Files
 
 #### Using bazam (https://github.com/ssadedin/bazam) and BBMap Suite (https://jgi.doe.gov/data-and-tools/software-tools/bbtools/bb-tools-user-guide/bbmap-guide/)
 
