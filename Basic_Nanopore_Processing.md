@@ -40,6 +40,10 @@ longshot - https://github.com/pjedge/longshot
 longshot --bam <bam_file> --ref <ref_path> --out <output_file>
 ```
 
+Other pipelines and tools
+
 wf-human-variation-Nextflow pipeline - https://github.com/epi2me-labs/wf-human-variation
+
 Clair3 - https://github.com/HKU-BAL/Clair3
+
 NanoCaller - https://github.com/WGLab/NanoCalle
